@@ -1,0 +1,39 @@
+body {
+  background: #000;
+  color: yellow;
+  max-width: 700px;
+  margin: 0 auto;
+  border: 2px solid red;
+  padding: 25px;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  color: red;
+}
+.description {
+  display: none;
+}
+.flash-pop {
+  transform: scale(2.0);
+  transition: transform 0.24s ease;
+}
+ul.Contents {
+  list-style: none;
+}
+.img-small { width: 200px; height: 120px; }
+.img-medium { width: 335px; height: 170px; }
+.img-large { width: 500px; height: 300px; }
+
+.image-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.movie-video {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%
+}
