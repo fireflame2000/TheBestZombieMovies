@@ -24,14 +24,15 @@ nav {
 
 ul.Contents {
   list-style: none;
-  text-align: center; /* center the list item text */
-  /* if list is narrow, you can also center the whole block */
-  display: inline-block;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
+  width: 100%;              /* span full page width */
+  text-align: center;       /* center inline children (the links) */
 }
 
-/* make sure each list item itself centers its content */
+/* make every list item fill the width and center its text */
 ul.Contents li {
+  width: 100%;
   text-align: center;
 }
 .img-small { width: 200px; height: 120px; }
