@@ -18,6 +18,10 @@ h1 {
   transform: scale(2.0);
   transition: transform 0.24s ease;
 }
+nav {
+  text-align: center;
+}
+
 ul.Contents {
   list-style: none;
   text-align: center; /* center the list item text */
