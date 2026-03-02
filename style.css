@@ -20,7 +20,6 @@ h1 {
 }
 ul.Contents {
   list-style: none;
-  justify-content: center;
 }
 .img-small { width: 200px; height: 120px; }
 .img-medium { width: 335px; height: 170px; }
