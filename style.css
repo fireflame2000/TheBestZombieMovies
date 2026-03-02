@@ -20,6 +20,10 @@ h1 {
 }
 ul.Contents {
   list-style: none;
+  text-align: center; /* center the list item text */
+  /* if list is narrow, you can also center the whole block */
+  display: inline-block;
+  margin: 0 auto;
 }
 .img-small { width: 200px; height: 120px; }
 .img-medium { width: 335px; height: 170px; }
