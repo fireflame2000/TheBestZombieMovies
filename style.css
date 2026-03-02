@@ -29,6 +29,11 @@ ul.Contents {
   display: inline-block;
   margin: 0 auto;
 }
+
+/* make sure each list item itself centers its content */
+ul.Contents li {
+  text-align: center;
+}
 .img-small { width: 200px; height: 120px; }
 .img-medium { width: 335px; height: 170px; }
 .img-large { width: 500px; height: 300px; }
