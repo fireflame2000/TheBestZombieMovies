@@ -7,17 +7,20 @@ document.querySelectorAll(".movie").forEach(movie => {
   const button = movie.querySelector(".toggle");
   const description = movie.querySelector(".description");
 
-  button.addEventListener("click", () => {
-    const isHidden = description.style.display === "none" || description.style.display === "";
+  // guard against sections that don't have a toggle button/description
+  if (button && description) {
+    button.addEventListener("click", () => {
+      const isHidden = description.style.display === "none" || description.style.display === "";
 
-    if (isHidden) {
-      description.style.display = "block";
-      button.textContent = "Show Less";
-    } else {
-      description.style.display = "none";
-      button.textContent = "Show More";
-    }
-  });
+      if (isHidden) {
+        description.style.display = "block";
+        button.textContent = "Show Less";
+      } else {
+        description.style.display = "none";
+        button.textContent = "Show More";
+      }
+    });
+  }
 });
 
 document.querySelectorAll("img").forEach(img => {
