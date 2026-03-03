@@ -1,12 +1,26 @@
 body {
   background: #000;
   color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+/* inner container holds page content and border */
+.inner {
+  background: #000;
+  color: yellow;
   max-width: 700px;
   margin: 0 auto;
   border: 2px solid red;
   padding: 25px;
   font-family: sans-serif;
   text-align: center;
+}
+
+/* outer wrapper for adding decorative background visible outside the red frame */
+.outer {
+  background: url('bloody-handprints.png') center/cover no-repeat;
+  padding: 25px; /* provide space so red border sits inside */
 }
 h1 {
   color: red;
